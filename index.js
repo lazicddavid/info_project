@@ -16,3 +16,15 @@ if (age >= 18) {
 } else {
   console.log("You can enter");
 }
+/////////////////////////////////////////////////////////
+
+
+const car = { 
+  brand: "BMW",
+  speed: 120;
+
+
+  accelerate() {
+    this.speed +=10;
+  }
+};
