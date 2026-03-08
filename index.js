@@ -1,19 +1,5 @@
-console.log("-------------------------------------------");
+let score = 10;
 
-const myNm = "David";
+score = score + 5;
 
-console.log("hello " + myNm);
-
-let myAge = 25;
-//ili
-age = age + 1;
-console.log(age);
-
-console.log("-------------------------------------------");
-
-const lastName = "Lazic";
-const subject = "Java";
-
-console.log(`${lastName} is learning ${subject}`);
-
-console.log("-------------------------------------------");
+console.log(score);
