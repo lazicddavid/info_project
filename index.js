@@ -1,4 +1,4 @@
-let score = 10;
+/*let score = 10;
 
 score = score + 5;
 
@@ -16,15 +16,13 @@ if (age >= 18) {
 } else {
   console.log("You can enter");
 }
-/////////////////////////////////////////////////////////
+*/
 
-
-const car = { 
+const car = {
   brand: "BMW",
-  speed: 120;
-
+  speed: 120,
 
   accelerate() {
-    this.speed +=10;
-  }
+    this.speed += 10;
+  },
 };
