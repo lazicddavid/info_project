@@ -1,24 +1,19 @@
+console.log("-------------------------------------------");
 
+const myNm = "David";
 
-const userName = "David";
+console.log("hello " + myNm);
 
-console.log("Hello " + userName);
+let myAge = 25;
+//ili
+age = age + 1;
+console.log(age);
 
+console.log("-------------------------------------------");
 
-let age = 25;
-let result  = "";
-console.log("25+1")
+const lastName = "Lazic";
+const subject = "Java";
 
-return result;
+console.log(`${lastName} is learning ${subject}`);
 
-
-
-
-const name = "David"; 
-
-const language = "JavaScript";
-
-let plusFunction() {
-  console.log("language" + "is learning +" "name");
-  return plusFunction;
-}
+console.log("-------------------------------------------");
