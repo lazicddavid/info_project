@@ -1,4 +1,4 @@
-const player = {
+/*const player = {
   name: "David",
   score: 0,
   energy: 100,
@@ -22,3 +22,8 @@ player.rest();
 
 console.log(player.getScore());
 console.log(player.energy);
+*/
+
+let balance = 0;
+
+const state = {};
