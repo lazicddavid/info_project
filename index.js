@@ -4,21 +4,17 @@ const player = {
   energy: 100,
 
   play() {
-
-    this.score += 10,
-    this.energy -=5,
+    this.score += 10;
+    this.energy -= 5;
   },
 
   rest() {
-    this.energy +=20,
-
+    this.energy += 20;
   },
-
   getScore() {
-    console.log(this.score);
-  }
+    return this.score;
+  },
 };
-
 
 player.play();
 player.play();
