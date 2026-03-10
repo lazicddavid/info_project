@@ -24,6 +24,6 @@ console.log(player.getScore());
 console.log(player.energy);
 */
 
-let balance = 0;
-
-const state = {};
+const bankAccount = {
+  ownerBalance: 0,
+};
